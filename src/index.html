@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="chat-login">
+        <input type="text" id="login-box" placeholder="Name"></input>
+        <input type="button" id="enter-chat" value="Enter"></input>
+    </div>
+    <div id="chat-room" hidden="true">
+        <div>
+            <textarea id="chat-messages" rows="20" cols="70" disabled="true"></textarea>
+        </div>
+        <div>
+            <input type="text" id="chat-box"></input>
+            <input type="button" id="send-message" value="send"></input>
+        </div>
+    </div>
+</body>
+</html>
